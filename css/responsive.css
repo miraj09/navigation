@@ -1,0 +1,34 @@
+@media all and (max-width: 840px;){
+	.container {
+		width: 600px;
+		margin: auto;
+	}
+}
+@media all and (max-width: 460px ) {
+	.container {
+		width: 400px;
+	}
+	.icon {
+		height: 270px;
+		display: flex;
+		flex-direction: column;
+	}
+	.i1 {
+		order: 1;
+	}
+	.p1 {
+		order:2;
+	}
+	.i2 {
+		order: 3;
+	}
+	.p2 {
+		order:4;
+	}
+	.range {
+		margin: 50px 0px;
+	}
+	a {
+		margin: 80px auto 10px;
+	}
+}
